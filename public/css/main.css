@@ -1,0 +1,56 @@
+body {
+    padding: 5%;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5%;
+}
+
+/* div {
+    touch-action:none;
+} */
+
+button {
+    width: 5rem;
+    height: 5rem;
+    display: block;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 1);
+    border: 2px solid blue;
+    touch-action: manipulation;
+}
+
+/* button:active,
+button:focus {
+    background-color: rgba(0, 0, 0, .6);
+} */
+
+.to-push {
+    background-color: tomato;
+}
+
+.pushed {
+    background-color: yellow;
+}
+
+.first-row {
+    justify-items: center;
+    display: grid;
+    gap: 7%;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.second-row {
+    justify-items: center;
+    display: grid;
+    gap: 5%;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.third-row {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
